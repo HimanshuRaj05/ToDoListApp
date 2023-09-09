@@ -50,7 +50,9 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.viewHolder> {
     public class viewHolder extends RecyclerView.ViewHolder {
         CheckBox checkBox;
         TextView textView;
+
         ImageView btnDelete;
+
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
